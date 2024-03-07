@@ -1,3 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  img {
+    @apply w-full
+  }
+
+  .section {
+    @apply container mx-auto py-24 px-6 
+  }
+  .animate-slide:hover {
+    animation-play-state: paused;
+  }
+  form>div {
+    @apply flex flex-col gap-2
+  }
+  input,
+  textarea {
+    @apply shadow-md px-6 py-2 border border-slate-300 rounded-xl font-normal text-black;
+  }
+}

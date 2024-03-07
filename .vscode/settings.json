@@ -1,0 +1,21 @@
+{
+  "detectedConfig": {
+    "typescript": true,
+    "naming": "Pascal Case",
+    "unit": "px",
+    "framework": "nextjs",
+    "styling": "Tailwind"
+  },
+  "locofyConfig": {
+    "project": "Major Project 1",
+    "id": "65d8b6ce0d8e08f968b56e90",
+    "framework": "react-nextjs",
+    "typescript": true,
+    "styling": "Tailwind",
+    "unit": "px",
+    "naming": "Kebab Case",
+    "path": "public/",
+    "componentsPath": "/Users/senghongtan/Documents/education-management-system/src/app/components",
+    "screensPath": "/Users/senghongtan/Documents/education-management-system/src/pages"
+  }
+}
